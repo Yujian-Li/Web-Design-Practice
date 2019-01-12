@@ -1,0 +1,115 @@
+<!-- 17201848 Yujian Li -->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Healthy Recipes</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta content="Wellbeing, Healthy Recipes, Diet, Healthy food, Healthy eating, Healthy meal,Healthy dinner, Healthy lunch" name="keywords">
+      <meta content="We offer healthy dishes recipes, soup recipes, porridge recipes and snack recipes... You could always find something you want..." name="description">
+      <link rel="stylesheet" href="css/mycss.css" type="text/css"/>
+      <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <link href="css/mislider.css" rel="stylesheet">
+      <link href="css/mislider-skin-cameo.css" rel="stylesheet">
+      <script type="text/javascript" src="js/mislider.js"></script>
+      <script type="text/javascript">
+         jQuery(function ($) {
+          var slider = $('.mis-stage').miSlider({
+           //  The height of the stage in px. Options: false or positive integer. false = height is calculated using maximum slide heights. Default: false
+           stageHeight: 380,
+           //  Number of slides visible at one time. Options: false or positive integer. false = Fit as many as possible.  Default: 1
+           slidesOnStage: false,
+           //  The location of the current slide on the stage. Options: 'left', 'right', 'center'. Defualt: 'left'
+           slidePosition: 'center',
+           //  The slide to start on. Options: 'beg', 'mid', 'end' or slide number starting at 1 - '1','2','3', etc. Defualt: 'beg'
+           slideStart: 'mid',
+           //  The relative percentage scaling factor of the current slide - other slides are scaled down. Options: positive number 100 or higher. 100 = No scaling. Defualt: 100
+           slideScaling: 150,
+           //  The vertical offset of the slide center as a percentage of slide height. Options:  positive or negative number. Neg value = up. Pos value = down. 0 = No offset. Default: 0
+           offsetV: -5,
+           //  Center slide contents vertically - Boolean. Default: false
+           centerV: true,
+           //  Opacity of the prev and next button navigation when not transitioning. Options: Number between 0 and 1. 0 (transparent) - 1 (opaque). Default: .5
+           navButtonsOpacity: 1
+          });
+         });
+      </script>
+   </head>
+   <body>
+      <div class = "before-top">
+         <div class = "logo"><a href = "home.html">Nourished Yummies</a></div>
+      </div>
+      <div class = "header">
+         <nav class = "navbar" id = "navbar">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle"/>
+            <label for="nav-toggle">
+               <span class="menu-icon">
+                  <svg viewBox="0 0 18 15" width="18px" height="15px">
+                     <path fill="black" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                     <path fill="black" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                     <path fill="black" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                  </svg>
+               </span>
+            </label>
+            <ul class = "nav-list">
+               <li><a href = "home.html" class = "nav-others">Home</a></li>
+               <li><a href = "recipes.html" class = "nav-current">Recipes</a></li>
+               <li><a href = "foodA-Z.html" class = "nav-others">Food A-Z</a></li>
+               <li><a href = "" class = "nav-others">Food News</a></li>
+               <li><a href = "joinus.html" class = "nav-others">Join us</a></li>
+            </ul>
+         </nav>
+         <div class = "foodbanner"><img src = "images/dishesbanner4.jpg" alt = "dishes_banner"/></div>
+         <div class = "A-Z">
+            <div class="mis-stage">
+               <ol class="mis-slider">
+                  <li class="mis-slide">
+                     <a href="#" class="mis-container">
+                        <figure>
+                           <img src="images/porridge_cover.jpg" alt="porridge"/>
+                           <figcaption>Nurished Porridge</figcaption>
+                        </figure>
+                     </a>
+                  </li>
+                  <li class="mis-slide">
+                     <a href="dishes.html" class="mis-container">
+                        <figure>
+                           <img src="images/dishes_cover.jpg" alt="dishes"/>
+                           <figcaption>Nurished Dishes</figcaption>
+                        </figure>
+                     </a>
+                  </li>
+                  <li class="mis-slide">
+                     <a href="#" class="mis-container">
+                        <figure>
+                           <img src="images/snack_cover.jpg" alt="snack"/>
+                           <figcaption>Nourished Snacks</figcaption>
+                        </figure>
+                     </a>
+                  </li>
+                  <li class="mis-slide">
+                     <a href="#" class="mis-container">
+                        <figure>
+                           <img src="images/soup_cover.jpg" alt="soup"/>
+                           <figcaption>Nourished Soup</figcaption>
+                        </figure>
+                     </a>
+                  </li>
+               </ol>
+            </div>
+         </div>
+         <div class = "recipes-dis">
+            <h1>DIY Your Weekly Healthy Meal Plan</h1>
+            <h3>Step 1: For each day of a week, pick one meat dish and one vegetable dish.</h3>
+            <h3>Step 2: Pick 2-3 snacks for weekends.</h3>
+            <h3>Step 3: Pick as much soup or porridge as you like,  schedule to any days of a week. Please do not keep soup or porridge longer than two days even in the fridge.</h3>
+         </div>
+      </div>
+      <footer>
+         <p>
+            &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+         </p>
+      </footer>
+   </body>
+</html>
